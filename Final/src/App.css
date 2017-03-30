@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.align{
+  text-align: center;
+}
+.inline{
+  display: inline-block;
+
+}
+.box{
+  box-shadow: 1px 1px 5px #888888;
+  margin-top:20px
+}
+ul{
+  list-style: none;
+}
+
+.header{
+  background-image: url('./images/food.png');
+  background-size: 100% auto;
+}
+.favorite{
+  background-image: url('./images/favbg.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+   padding: 0.5em 0.6em;
+}
+
+.searchbutton{
+  color:white;
+  background-color: #0E9BA4;
+  margin-bottom: 10px;
+
+}
+.mainsearchbutton{
+  color:white;
+  background-color: #0E9BA4;
+}
+
+.iconimg{
+  height:153px;
+}
+.addrecipe{
+  color:white;
+  background-color: #225fbd;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+a{
+  color:white;
+}
+.info{
+  background-color: #0E9BA4;
+  color:white;
+  padding:10px;
+      margin-right: 26px;
+}
+
+.spandiv{
+  position:relative;
+
+}
+.spandelete {
+  color:white;
+  background-color: rgba(219, 69, 69, 0.81);
+  width:80px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top:0;
+  left:0
+}
+
+.spandelete { display: none; }
+.spandiv:hover .spandelete {
+    display: inline;
+}
+
+.spanfavorite {
+  color:white;
+  background-color: rgba(69, 219, 89, 0.81);
+  width:80px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top:0;
+  left:0
+}
+
+.spanfavorite { display: none; }
+.spandiv:hover .spanfavorite {
+    display: inline;
+}
+
+.searchBar{
+  margin-bottom:20px;
+}
+
+.cook{
+  margin-bottom:20px;
+}
